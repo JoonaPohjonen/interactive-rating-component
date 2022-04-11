@@ -1,15 +1,55 @@
 body {
-    background-color: cyan;
+    background-color: hsl(216, 12%, 8%);
 }
 
 .appBox {
-    background-color: pink;
-    width: 50%;
+    background-color: hsl(213, 19%, 18%);
+    width: 17%;
     position: absolute;
-    top: 40%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    top: 50%;
+    left: 30%;
+    margin: 0;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(50%, -50%);
 
-    -ms-transform: translateX(50%);
-    transform: translateX(50%);
+    border-radius: 25px;
+    padding: 30px;
+}
+
+/*---------Star Logo----------*/
+.starIconBall {
+    display: inline-block;
+    background-color: hsl(216, 12%, 54%);
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+
+}
+#starIcon {
+    display: block;
+    margin-left: 29%;
+    margin-top: 28%;
+}
+/*---------Star Logo----------*/
+
+/*-----------texts------------*/
+.textWhite {
+    color: hsl(0, 0%, 100%);
+}
+
+.textGrey {
+    color: hsl(217, 12%, 63%);
+}
+/*-----------texts------------*/
+
+.numberChoise {
+    display: inline-block;
+    background-color: hsl(216, 12%, 54%);
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 14px;
+    line-height: 2.7;
 }
