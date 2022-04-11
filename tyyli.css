@@ -35,13 +35,16 @@ body {
 /*-----------texts------------*/
 .textWhite {
     color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
 }
 
 .textGrey {
     color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
 }
 /*-----------texts------------*/
 
+/*----------buttons-----------*/
 .numberChoise {
     display: inline-block;
     background-color: hsl(216, 12%, 54%);
@@ -52,4 +55,18 @@ body {
     margin-top: 10px;
     margin-left: 14px;
     line-height: 2.7;
+    border-style: none;
+    font-family: 'Overpass', sans-serif;
+}
+
+#submit {
+    display: block;
+    background-color: hsl(25, 97%, 53%);
+    width: 93%;
+    height: 40px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: none;
 }
