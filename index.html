@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="tyyli.css">
-  
+
   <title>Frontend Mentor | Interactive rating component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
     @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200&display=swap');
   </style>
 </head>
-<body>
 
-  <!-- Rating state start -->
+<body>
 
   <div class="appBox">
 
@@ -42,13 +50,6 @@
       <button onclick="hideChoise()" class="textWhite" id="submit" disabled>Submit</button>
     </div>
 
-    <!-- Rating state end -->
-
-    <!-- Thank you state start -->
-
-    <!-- Add rating here -->
-
-    <!-- Thank you state end -->
     <div class="containerForThankYou">
       <img id="transactionImage" src="./images/illustration-thank-you.svg" alt="image for the thanks you screen">
 
@@ -58,7 +59,8 @@
 
       <h1 class="textWhite">Thank you!</h1>
 
-      <p class="appreciationText textGrey">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+      <p class="appreciationText textGrey">We appreciate you taking the time to give a rating. If you ever need more
+        support, don't hesitate to get in touch!</p>
 
       <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
@@ -68,4 +70,5 @@
   </div>
   <script src="theCode.js"></script>
 </body>
+
 </html>
