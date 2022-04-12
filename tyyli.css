@@ -39,6 +39,8 @@ body {
     display: block;
     margin-left: 23%;
     margin-top: 5%;
+    max-width: 100%;
+    height: auto;
 }
 /*-------thanks you image-----*/
 
@@ -129,3 +131,21 @@ h1 {
     display: none;
 }
 /*----for gorup selection-----*/
+
+@media only screen and (max-width: 1000px) {
+    .whatYouSelectedText {
+        width: 120px;
+        height: 80px;
+        padding: 5px 20px 5px 20px;
+        font-family: 'Overpass', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .whatYouSelectedText {
+        width: 60px;
+        height: 80px;
+        padding: 5px 20px 60px 20px;
+        font-family: 'Overpass', sans-serif;
+    }
+}
