@@ -22,21 +22,25 @@
 
   <div class="appBox">
 
-    <div class="starIconBall">
-      <img id="starIcon" src="./images/icon-star.svg" alt="star icon">
+    <div class="containerForSelection">
+      <div class="starIconBall">
+        <img id="starIcon" src="./images/icon-star.svg" alt="star icon">
+      </div>
+
+      <h2 class="textWhite">How did we do?</h2>
+
+      <p class="textGrey">Please let us know how we did with your support request. All feedback is appreciated to help
+        us
+        improve our offering!</p>
+
+      <button onclick="numberino(1)" class="numberChoise">1</button>
+      <button onclick="numberino(2)" class="numberChoise">2</button>
+      <button onclick="numberino(3)" class="numberChoise">3</button>
+      <button onclick="numberino(4)" class="numberChoise">4</button>
+      <button onclick="numberino(5)" class="numberChoise">5</button>
+
+      <button onclick="hideChoise()" class="textWhite" id="submit" disabled>Submit</button>
     </div>
-
-    <h2 class="textWhite">How did we do?</h2>
-
-    <p class="textGrey">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-
-    <button class="numberChoise">1</button>
-    <button class="numberChoise">2</button>
-    <button class="numberChoise">3</button>
-    <button class="numberChoise">4</button>
-    <button class="numberChoise">5</button>
-
-    <button class="textWhite" id="submit">Submit</button>
 
     <!-- Rating state end -->
 
@@ -45,12 +49,23 @@
     <!-- Add rating here -->
 
     <!-- Thank you state end -->
+    <div class="containerForThankYou">
+      <img id="transactionImage" src="./images/illustration-thank-you.svg" alt="image for the thanks you screen">
 
+      <div class="whatYouSelectedText">
+        <p id="result"></p>
+      </div>
 
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">HoodyJones</a>.
+      <h1 class="textWhite">Thank you!</h1>
+
+      <p class="appreciationText textGrey">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">HoodyJones</a>.
+      </div>
     </div>
   </div>
+  <script src="theCode.js"></script>
 </body>
 </html>

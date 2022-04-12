@@ -1,3 +1,4 @@
+/*---------BackGround---------*/
 body {
     background-color: hsl(216, 12%, 8%);
 }
@@ -15,11 +16,12 @@ body {
     border-radius: 25px;
     padding: 30px;
 }
+/*---------BackGround---------*/
 
 /*---------Star Logo----------*/
 .starIconBall {
     display: inline-block;
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(216, 12%, 34%);
     width: 40px;
     height: 40px;
     border-radius: 25px;
@@ -32,6 +34,14 @@ body {
 }
 /*---------Star Logo----------*/
 
+/*-------thanks you image-----*/
+#transactionImage {
+    display: block;
+    margin-left: 23%;
+    margin-top: 5%;
+}
+/*-------thanks you image-----*/
+
 /*-----------texts------------*/
 .textWhite {
     color: hsl(0, 0%, 100%);
@@ -42,12 +52,35 @@ body {
     color: hsl(217, 12%, 63%);
     font-family: 'Overpass', sans-serif;
 }
+
+.whatYouSelectedText {
+    background-color: hsl(216, 12%, 34%);
+    color:hsl(25, 97%, 53%);
+    text-align: center;
+    width: 200px;
+    height: 28px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 10%;
+    line-height: 1.7;
+    font-family: 'Overpass', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.appreciationText {
+    text-align: center;
+    margin-bottom: 10%;
+}
 /*-----------texts------------*/
 
 /*----------buttons-----------*/
 .numberChoise {
     display: inline-block;
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(216, 12%, 34%);
     width: 45px;
     height: 45px;
     border-radius: 25px;
@@ -57,6 +90,14 @@ body {
     line-height: 2.7;
     border-style: none;
     font-family: 'Overpass', sans-serif;
+}
+.numberChoise:focus {
+    background-color: hsl(217, 12%, 63%);
+}
+.numberChoise:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
 }
 
 #submit {
@@ -70,3 +111,21 @@ body {
     margin-bottom: 20px;
     border-style: none;
 }
+#submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+#submit:disabled {
+    opacity: 0.5;
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+    cursor: not-allowed;
+}
+/*----------buttons-----------*/
+
+/*----for gorup selection-----*/
+.containerForThankYou {
+    display: none;
+}
+/*----for gorup selection-----*/
