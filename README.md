@@ -15,7 +15,7 @@
 
   ## Screenshot
 
-  ![Preview for the Interactive Rating Component](./rating-comp.PNG)
+  ![Preview for the Interactive Rating Component](./int-comp-app.PNG)
 
   ## My Process
 
